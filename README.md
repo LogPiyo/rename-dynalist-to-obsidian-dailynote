@@ -18,7 +18,7 @@ to:
 
 ## 🖥️ How to Use (macOS)
 
-1. Place the `rename.py` file into the folder containing your `.md` files.
+1. Place the `rename_md_files.py` file into the folder containing your `.md` files.
 
 2. Open **Terminal** and navigate to the folder:
     ```bash
@@ -27,11 +27,11 @@ to:
 
 3. Run the script:
     ```bash
-    python3 rename.py
+    python3 rename_md_files.py
     ```
     Or, if you made it executable:
     ```bash
-    ./rename.py
+    ./rename_md_files.py
     ```
 
 4. The script will show which files were renamed.
