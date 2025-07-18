@@ -1,13 +1,17 @@
 # Markdown Renamer
 
-This is a simple Python script that renames `.md` files with names like:
+This is a simple Python script designed to help you migrate exported Notion daily journal entries into [Obsidian](https://obsidian.md)'s **Daily Notes** format.
+Notion often exports journal files with filenames like:
 ```
 20230710 abcdef123456.md
 ```
-to:
+This script renames them to Obsidian's expected Daily Notes format:
 ```
 2023-07-10.md
 ```
+## 📝 Use Case
+If you've exported your diary or daily notes from Notion as markdown files and want to import them into Obsidian, you may find that Notion adds a long string after the date. Obsidian's Daily Notes plugin expects filenames like `YYYY-MM-DD.md`.
+This script automates that filename conversion for **batch processing**.
 
 ## 📁 What It Does
 
@@ -45,8 +49,6 @@ Before:
 After:
 
 ```
-2023-07-10.md
-2023-07-11.md
 2023-07-10.md
 2023-07-11.md
 ```
